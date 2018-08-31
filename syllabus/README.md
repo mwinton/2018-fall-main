@@ -158,7 +158,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Assignment 0 -->
   <td><strong><a href="../assignment/a0" target="_blank">Assignment&nbsp;0</a></strong>
-  <br>Released&nbsp;September&nbsp;1</td>
+  <br>Released&nbsp;September&nbsp;1
   <br>due&nbsp;September&nbsp;9</td>
   <td><strong>Course Set-up</strong></td>
   <td><ul>
