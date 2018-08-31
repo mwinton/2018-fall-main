@@ -209,7 +209,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- n-grams -->
   <td><strong>Week&nbsp;4</strong><br>(September&nbsp;17&nbsp;-&nbsp;23)</td>
-  <td>Language Modeling I
+  <td>Language Modeling I,
   <br>4.1-4.4, 4.8 - 4.11</td>
   <td><ul>
     <li>LM applications
@@ -344,7 +344,7 @@ We'll update the table below with assignments as they become available, as well 
   <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
   <br>released&nbsp;October&nbsp;TBD
   <br>due&nbsp;October&nbsp;TBD</td>
-  <td><strong>Assignment 5</strong></td>
+  <td><strong>Assignment 4</strong></td>
   <td><ul>
   <li>TBD
   </ul></td>
