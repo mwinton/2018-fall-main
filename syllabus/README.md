@@ -25,6 +25,9 @@ Understanding language is fundamental to human interaction. Our brains have evol
 **Live Sessions:**
 * Tuesday 4 - 5:30p Pacific (Daniel Cer)
 * Tuesday 6:30 - 8p Pacific (James Kunz)
+* Wednesday 6:30 - 8p Pacific (Blake Lemoine)
+* Thursday 4 - 5:30p Paciifc (Joachim Rahmfeld)
+* Thursday 6:30 - 8p Pacific (Mark Butler)
 
 **Teaching Staff Office Hours:**
 
@@ -52,7 +55,7 @@ Your grade will be determined as follows:
 * **Final Project**: 40%
 
 There will be a number of smaller [assignments](../assignment/) throughout the term for you to
-exercise what you learned in async and live sessions. Some assignments may be more difficult than others, and may be weighted accordingly.  Given the size of the class, we'll randomly sample a handful of questions to grade.
+exercise what you learned in async and live sessions. Some assignments may be more difficult than others, and may be weighted accordingly.
 
 Participation will be graded holistically, based on live session attendance and participation as well as participation on Piazza. (Do not stress about this part.)
 
@@ -129,17 +132,23 @@ We'll update the table below with assignments as they become available, as well 
 <th>Materials</th>
 </tr>
 <tr><!--- Introductions -->
-  <td><strong>Week&nbsp;1</strong><br>(May&nbsp;7&nbsp;-&nbsp;13)</td>
-  <td>Introduction</td>
+  <td><strong>Week&nbsp;1</strong><br>(September&nbsp;3&nbsp;-&nbsp;9)</td>
+  <td>Introduction
+  <br>5.3 Softmax Classification
+  <br>5.4 Neural network recap
+  <br>5.5 Neural network training loss
+  </td>
   <td><ul>
     <li>Overview of NLP applications
-    <li>Ambiguity in language
-    <li>General concepts
+    <li>Ambiguity and grounding in language
+    <li>Information theory and linear algebra review
+    <li>ML models: Logistic regression and feed forward networks
   </ul></td>
   <td><ul>
   <li>Skim: <a href="http://www.nltk.org/book/ch01.html" target="_blank">NLTK book chapter 1 (python and basics)</a>
   <li>Skim: <a href="http://www.nltk.org/book/ch02.html" target="_blank">NLTK book chapter 2 (data resources)</a>
   <li>Read: <a href="https://www.technologyreview.com/s/602094/ais-language-problem/" target="_blank">AI’s Language Problem (Technology Review)</a>
+  <li>Read: <a href="http://nautil.us/issue/54/the-unspoken/the-rise-and-fall-of-the-english-sentence" target="_blank">The Rise and Fall of the English Sentence</a>
   <li><em>Optional:</em> <a href="http://www.newyorker.com/magazine/2007/04/16/the-interpreter-2" target="_blank">The Interpreter (New Yorker)</a>
   <li><em>Optional:</em> <a href="https://www.uio.no/studier/emner/hf/ikos/EXFAC03-AAS/h05/larestoff/linguistics/Chapter%204.(H05).pdf" target="_blank">Introduction to Linguistic Typology</a>
   </ul>
@@ -149,24 +158,25 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Assignment 0 -->
   <td><strong><a href="../assignment/a0" target="_blank">Assignment&nbsp;0</a></strong>
-  <br>due&nbsp;May&nbsp;13</td>
+  <br>Released&nbsp;September&nbsp;1</td>
+  <br>due&nbsp;September&nbsp;9</td>
   <td><strong>Course Set-up</strong></td>
   <td><ul>
     <li>GitHub
+    <li>Piazza
     <li>Google Cloud
   </ul></td>
   <td><a href="../assignment/a0" target="_blank">Assignment 0</a></td>
 </tr>
 <tr><!--- Sentiment/Classification -->
-  <td><strong>Week&nbsp;2</strong><br>(May&nbsp;14&nbsp;-&nbsp;20)</td>
-  <td>Classification and Sentiment
-  <p><p>
-  <em>Note: you may want to skim Async 5.3, 5.4, and 5.5 before the sections on CNNs (2.7 onwards).</em>
+  <td><strong>Week&nbsp;2</strong><br>(September&nbsp;10&nbsp;-&nbsp;16)</td>
+  <td>Classification and Sentiment (up to 2.6)
   </td>
   <td><ul>
   <li>Sentiment lexicons
   <li>Aggregated sentiment applications
-  <li>Convolutional neural networks (CNNs)
+  <li>Bag-of-word models
+  <li>Introduction to Word embeddings
   </ul></td>
   <td><ul>
   <li>Skim: <a href="http://www.cs.cornell.edu/home/llee/omsa/omsa.pdf" target="_blank">Opinion Mining and Sentiment Analysis</a> (Pang and Lee 2008) - focus on Chapters 1-4
@@ -176,7 +186,8 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- TF and Info Theory Assignment -->
   <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
-  <br>due&nbsp;May&nbsp;20</td>
+  <br>released&nbsp;September&nbsp;7
+  <br>due&nbsp;September&nbsp;16</td>
   <td><strong>Background and TensorFlow</strong></td>
   <td><ul>
   <li>Information Theory
@@ -185,48 +196,36 @@ We'll update the table below with assignments as they become available, as well 
   </ul></td>
   <td><a href="../assignment/a1" target="_blank">Assignment 1</a></td>
 </tr>
+<tr><!--- Sentiment/Classification -->
+  <td><strong>Week&nbsp;3</strong><br>(September&nbsp;10&nbsp;-&nbsp;16)</td>
+  <td>Classification and Sentiment (2.7 onwards)
+  <p><p>
+  <em>Note: you may want to review Async 5.3, 5.4, and 5.5.</em>
+  </td>
+  <td><ul>
+  <li>Convolutional neural networks for NLP
+  </ul></td>
+  <td></td>
+</tr>
 <tr><!--- n-grams -->
-  <td><strong>Week&nbsp;3</strong><br>(May&nbsp;21&nbsp;-&nbsp;27)</td>
-  <td>Language Modeling I</td>
+  <td><strong>Week&nbsp;4</strong><br>(September&nbsp;17&nbsp;-&nbsp;23)</td>
+  <td>Language Modeling I
+  <br>4.1-4.4, 4.8 - 4.11</td>
   <td><ul>
     <li>LM applications
     <li>N-gram models
     <li>Smoothing methods
-    <li>Text generation
+    <li>Representations of meaning
+    <li>Distributed representations
   </ul></td>
-  <td><ul>
+  <td>Language model introduction:<ul>
   <li>Skim: <a href="http://www.cs.berkeley.edu/~klein/cs294-5/chen_goodman.pdf" target="_blank">Chen and Goodman Survey</a>
   <li>Skim: <a href="http://arxiv.org/pdf/1312.3005.pdf" target="_blank">1 Billion Word Benchmark</a>
   <li><em>Optional:</em> <a href="http://norvig.com/ngrams/ch14.pdf" target="_blank">Natural Language Corpus Data (Peter Norvig)</a>
   </ul>
   <p>
   <a href="../materials/simple_lm/lm1.ipynb" target="_blank">[Language&nbsp;Modeling&nbsp;Notebook]</a>
-  </td>
-</tr>
-<tr><!--- Paper Sessions  -->
-  <td><strong>Paper Sessions</strong>
-  <br>(Highly Tentative) May 16, 24, 29, and 31</td>
-  <td>Reading the NLP Literature</td>
-  <td><ul>
-  <li>Finding papers
-  <li>Reading papers
-  <li>In-depth critique
-  </ul></td>
-  <td>
-  <a href="https://piazza.com/class/jgdalfng50h1xn?cid=59">[Schedule]</a>
-  <a href="https://docs.google.com/presentation/d/1QAydoH4eP8fW9FYEe8trODGQdZfb6us7NYx3PjGu-6A/edit#slide=id.p" target="_blank">[Slides]</a>
-  </td>
-</tr>
-<tr><!--- Distributed representation. -->
-  <td><strong>Week&nbsp;4</strong><br>(May&nbsp;28&nbsp;-&nbsp;June&nbsp;3)</td>
-  <td>Clusters and Distributions</td>
-  <td><ul>
-  <li>Representations of meaning
-  <li>Word classes
-  <li>Word vectors via co-occurrence counts
-  <li>Word vectors via prediction (word2vec)
-  </ul></td>
-  <td><ul>
+  Distributed representations:<ul>
   <li>Read: <a href="http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d3/data/pdf/anthology-PDF/J/J92/J92-4003.pdf" target="_blank">Brown Clustering</a> (Brown et al. 1992)
   <li>Read: <a href="http://arxiv.org/pdf/1301.3781.pdf" target="_blank">CBOW and SkipGram</a> (Mikolov et al. 2013)
   <li><em>Optional:</em> <a href="http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/" target="_blank">Deep Learning, NLP, and Representations</a> (Chris Olah's blog)
@@ -240,16 +239,18 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Classification assignment -->
   <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <br>due&nbsp;June&nbsp;10</td>
+  <br>released&nbsp;September&nbsp;14
+  <br>due&nbsp;September&nbsp;23</td>
   <td><strong>Text Classification</strong></td>
   <td><ul>
     <li>Exploration & Naive Bayes
     <li>Neural Bag-of-Words
+    <li>Convolutional neural networks
   </ul></td>
   <td><a href="../assignment/a2" target="_blank">Assignment 2</a></td>
 </tr>
 <tr><!--- Neural language models -->
-  <td><strong>Week&nbsp;5-6</strong><br>(June&nbsp;4&nbsp;-&nbsp;17)</td>
+  <td><strong>Week&nbsp;5</strong><br>(September&nbsp;24&nbsp;-&nbsp;30)</td>
   <td>Language Modeling II</td>
   <td><ul>
   <li>Neural Net LMs
@@ -271,7 +272,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Project Proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
-  <br>due&nbsp;June&nbsp;17</td>
+  <br>due&nbsp;September&nbsp;30</td>
   <td></td>
   <td></td>
   <td>
@@ -279,7 +280,7 @@ We'll update the table below with assignments as they become available, as well 
   </td>
 </tr>
 <tr><!--- Extra Material -->
-  <td><strong>Extra Material</strong></td>
+  <td><strong>Interlude (Extra Material)</strong></td>
   <td>Basics of Text Processing</td>
   <td><ul>
   <li>Edit distance for strings
@@ -293,8 +294,67 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </ul></td>
 </tr>
+<tr><!--- Week 6 -->
+  <td><strong>Week&nbsp;6&nbsp;-&nbsp;7</strong><br>(October&nbsp;1&nbsp;-&nbsp;14)</td>
+  <td>Machine Translation I
+  <br>Machine Translation II</td>
+  <td><ul>
+  <li>Word- and phrase-based MT
+  <li>IBM alignment models
+  <li>Evaluation
+  <li>Neural MT with sequence-to-sequence models and attention
+  </ul></td>
+  <td><ul>
+  <li>Read: <a href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf" target="_blank">Sequence to Sequence Learning with Neural Networks</a>
+  <li>Read: <a href="https://arxiv.org/pdf/1409.0473.pdf" target="_blank">Neural Machine Translation by Jointly Learning to Align and Translate</a>
+  <li><em>Optional:</em> <a href="https://arxiv.org/abs/1609.08144" target="_blank">Google’s Neural Machine Translation System</a>
+  <li><em>Optional:</em> <a href="http://distill.pub/2016/augmented-rnns/#attentional-interfaces" target="_blank">Attention and Augmented Recurrent Neural Networks</a> (section on “Attentional Interfaces” has an awesome visualization of an MT example, showing alignments)
+  </ul></td>
+</tr>
+<tr><!--- LM & embeddings assignment -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <br>released&nbsp;September&nbsp;28
+  <br>due&nbsp;October&nbsp;14</td>
+  <td><strong>Language Models and Word Embeddings</strong></td>
+  <td><ul>
+    <li>Smoothed n-grams
+    <li>Exploring embeddings
+    <li>RNNLM
+  </ul></td>
+  <td><a href="../assignment/a3" target="_blank">Assignment 3</a></td>
+</tr>
+<tr>
+  <td><strong>Week&nbsp;8</strong><br>(October&nbsp;15&nbsp;-&nbsp;28)</td>
+  <td>Summarization</td>
+  <td><ul>
+  <li>Single- vs. multi-document summarization
+  <li>Extractive and abstractive summarization
+  <li>Classical summarization algorithms
+  <li>Evaluating generated summaries
+  </ul></td>
+  <td><ul>
+  <li>Skim: <a href="https://www.cs.cmu.edu/~afm/Home_files/Das_Martins_survey_summarization.pdf" target="_blank">A Survey on Automatic Text Summarization</a> (Das and Martins, 2007)
+  <li>Read: <a href="https://arxiv.org/pdf/1509.00685v2.pdf" target="_blank">A Neural Attention Model for Abstractive Sentence Summarization</a> (Rush et al. 2015)
+  <li><em>Optional:</em> <a href="https://arxiv.org/pdf/1704.04368.pdf" target="_blank">Get To The Point: Summarization with Pointer-Generator Networks</a> (See et al. 2017)
+  </ul>
+  <p>
+  </td>
+</tr>
+<tr>
+  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
+  <br>released&nbsp;October&nbsp;TBD
+  <br>due&nbsp;October&nbsp;TBD</td>
+  <td><strong>Assignment 5</strong></td>
+  <td><ul>
+  <li>TBD
+  </ul></td>
+  <td>
+  <a href="../assignment/a5" target="_blank">Assignment 5</a>
+  <p><p>
+  </td>
+</tr>
 <tr><!--- POS Tagging -->
-  <td><strong>Week&nbsp;7-8</strong><br>(June&nbsp;18&nbsp;-&nbsp;July&nbsp;1)</td>
+  <td><strong>Week&nbsp;9</strong><br>(October&nbsp;29&nbsp;-&nbsp;November&nbsp;4)</td>
   <td>Part-of-Speech Tagging I</td>
   <td><ul>
   <li>Tag sets
@@ -309,36 +369,12 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   <br>
   <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[Interactive HMM Demo]</a>
-  </td>
-</tr>
-<tr><!--- LM & embeddings assignment -->
-  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <br>due&nbsp;June&nbsp;24</td>
-  <td><strong>n-grams and Word Embeddings</strong></td>
-  <td><ul>
-    <li>Smoothed n-grams
-    <li>Exploring embeddings
-  </ul></td>
-  <td><a href="../assignment/a3" target="_blank">Assignment 3</a></td>
-</tr>
-<tr><!--- POS II -->
-  <td><strong>Optional</strong></td>
-  <td>Part-of-Speech Tagging II</td>
-  <td><ul>
-  <li>Feature engineering
-  <li>Leveraging unlabeled data
-  <li>Low resource languages
-  </ul>
-  <b>Note:</b> This week's async is optional (but good reference material if your project focuses on POS tagging).  We will spend live session time to reinforce Week 7 material.
-  </td>
-  <td><ul>
   <li>Read: <a href="https://arxiv.org/pdf/1104.2086.pdf" target="_blank">A Universal Part-of-Speech Tagset</a>
   <li>Read: <a href="http://nlp.stanford.edu/pubs/CICLing2011-manning-tagging.pdf" target="_blank">Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?</a>
-  </ul>
   </td>
 </tr>
 <tr><!--- Dependency Parsing -->
-  <td><strong>Week&nbsp;9</strong><br>(July&nbsp;2&nbsp;-&nbsp;8)</td>
+  <td><strong>Week&nbsp;10</strong><br>(November&nbsp;12&nbsp;-&nbsp;18)</td>
   <td>Dependency Parsing</td>
   <td><ul>
   <li>Dependency trees
@@ -346,8 +382,6 @@ We'll update the table below with assignments as they become available, as well 
   <li>Graph based parsing: Eisner Algorithm, Chu&#8209;Liu&#8209;Edmonds
   </ul></td>
   <td><ul>
-  <!-- TODO(iftenney): move Nautilus article to Week 1. -->
-  <li>Read: <a href="http://nautil.us/issue/54/the-unspoken/the-rise-and-fall-of-the-english-sentence" target="_blank">The Rise and Fall of the English Sentence</a>
   <li>Read: <a href="https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html" target="_blank">SyntaxNet (Parsey McParseface)</a>
   <li>Read: <a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf" target="_blank">Dependency Parsing (J&M Chapter 14)</a>
   <li><em>Optional:</em> <a href="http://cs.stanford.edu/people/danqi/papers/emnlp2014.pdf" target="_blank">A Fast and Accurate Dependency Parser using Neural Networks</a> (Chen & Manning 2014)
@@ -355,18 +389,8 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </td>
 </tr>
-<tr><!--- RNNLM Assignment -->
-  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
-  <br>due&nbsp;July&nbsp;8</td>
-  <td><strong>RNN Language Model</strong></td>
-  <td><ul>
-  <li>RNNLM structure
-  <li>TensorFlow implementation
-  </ul></td>
-  <td><a href="../assignment/a4" target="_blank">Assignment 4</a></td>
-</tr>
 <tr><!--- Constituency Parsing -->
-  <td><strong>Week&nbsp;10</strong><br>(July&nbsp;9&nbsp;-&nbsp;15)</td>
+  <td><strong>Week&nbsp;11</strong><br>(November&nbsp;19&nbsp;-&nbsp;25)</td>
   <td>Constituency Parsing</td>
   <td><ul>
   <li>Context-free grammars (CFGs)
@@ -385,7 +409,7 @@ We'll update the table below with assignments as they become available, as well 
   </td>
 </tr>
 <tr><!--- Information Retrieval -->
-  <td><strong>Week&nbsp;11-1</strong><br>(July&nbsp;16&nbsp;-&nbsp;22)</td>
+  <td><strong>Week&nbsp;12</strong><br>(November&nbsp;26&nbsp;-&nbsp;December&nbsp;2)</td>
   <td>Information Retrieval</td>
   <td><ul>
   <li>Building a Search Index
@@ -402,8 +426,8 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </td>
 </tr>
-<tr><!--- Week 11 -->
-  <td><strong>Week&nbsp;11-2</strong><br>(July&nbsp;16&nbsp;-&nbsp;22)</td>
+<tr><!--- Entities -->
+  <td><strong>Week&nbsp;13</strong><br>(December&nbsp;3&nbsp;-&nbsp;9)</td>
   <td>Entities</td>
   <td><ul>
   <li>From syntax to semantics
@@ -419,77 +443,22 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </td>
 </tr>
-<tr><!--- Project Milestone -->
-  <td><strong><a href="../project/#milestone" target="_blank">Project&nbsp;Milestone</a></strong>
-  <br>due&nbsp;July&nbsp;22</td>
-  <td></td>
-  <td></td>
-  <td><strong><a href="../project/#milestone" target="_blank">Final Project Guidelines</a></strong>
-  </td>
-</tr>
-<tr><!--- Week 12 -->
-  <td><strong>Week&nbsp;12</strong><br>(July&nbsp;23&nbsp;-&nbsp;29)</td>
-  <td>Machine Translation I</td>
-  <td><ul>
-  <li>Word- and phrase-based MT
-  <li>IBM alignment models
-  <li>Evaluation
-  <li>Neural MT with sequence-to-sequence models and attention
-  </ul></td>
-  <td><ul>
-  <li>Read: <a href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf" target="_blank">Sequence to Sequence Learning with Neural Networks</a>
-  <li>Read: <a href="https://arxiv.org/pdf/1409.0473.pdf" target="_blank">Neural Machine Translation by Jointly Learning to Align and Translate</a>
-  <li><em>Optional:</em> <a href="https://arxiv.org/abs/1609.08144" target="_blank">Google’s Neural Machine Translation System</a>
-  <li><em>Optional:</em> <a href="http://distill.pub/2016/augmented-rnns/#attentional-interfaces" target="_blank">Attention and Augmented Recurrent Neural Networks</a> (section on “Attentional Interfaces” has an awesome visualization of an MT example, showing alignments)
-  </ul></td>
-</tr>
-<tr><!--- HMM and CKY Assignment -->
-  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
-  <br>due&nbsp;July&nbsp;29</td>
-  <td><strong>Tagging and Parsing</strong></td>
-  <td><ul>
-  <li>HMMs / Forward-Backward and Viterbi
-  <li>Parsing / CKY
-  </ul></td>
-  <td>
-  <a href="../assignment/a5" target="_blank">Assignment 5</a>
-  <p><p>
-  <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[HMM Demo]</a>
-  <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[CKY Demo]</a>
-  </td>
-</tr>
-<tr>
-  <td><strong>Week&nbsp;13</strong><br>(July&nbsp;30&nbsp;-&nbsp;August&nbsp;5)</td>
-  <td>Summarization</td>
-  <td><ul>
-  <li>Single- vs. multi-document summarization
-  <li>Extractive and abstractive summarization
-  <li>Classical summarization algorithms
-  <li>Evaluating generated summaries
-  </ul></td>
-  <td><ul>
-  <li>Skim: <a href="https://www.cs.cmu.edu/~afm/Home_files/Das_Martins_survey_summarization.pdf" target="_blank">A Survey on Automatic Text Summarization</a> (Das and Martins, 2007)
-  <li>Read: <a href="https://arxiv.org/pdf/1509.00685v2.pdf" target="_blank">A Neural Attention Model for Abstractive Sentence Summarization</a> (Rush et al. 2015)
-  <li><em>Optional:</em> <a href="https://arxiv.org/pdf/1704.04368.pdf" target="_blank">Get To The Point: Summarization with Pointer-Generator Networks</a> (See et al. 2017)
-  </ul>
-  <p>
-  </td>
-</tr>
-<tr><!--- Project Presentations -->
-  <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong>
-  <br>in-class August&nbsp;6-10</td>
-  <td></td>
-  <td></td>
-  <td><strong><a href="../project/#presentations" target="_blank">Final Project Guidelines</a></strong>
-  </td>
-</tr>
+
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
-  <br><strong>due August&nbsp;10<br>(hard deadline)</strong>
+  <br><strong>due December&nbsp;7<br>(hard deadline)</strong>
   </td>
   <td></td>
   <td></td>
   <td><strong><a href="../project/#final-submission" target="_blank">Final Project Guidelines</a></strong>
+  </td>
+</tr>
+<tr><!--- Project Presentations -->
+  <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong>
+  <br>in-class December&nbsp;10-14</td>
+  <td></td>
+  <td></td>
+  <td><strong><a href="../project/#presentations" target="_blank">Final Project Guidelines</a></strong>
   </td>
 </tr>
 </table>
