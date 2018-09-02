@@ -28,12 +28,15 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * Wednesday 6:30 - 8p Pacific (Blake Lemoine)
 * Thursday 4 - 5:30p Paciifc (Joachim Rahmfeld)
 * Thursday 6:30 - 8p Pacific (Mark Butler)
+* Friday 4 - 5:30p Paciifc (Sid J Reddy)
 
 **Teaching Staff Office Hours:**
 
 * **Daniel Cer**: Wednesday at noon Pacific.
-* **Drew Plant**: Friday at noon Pacific.
+* **Drew Plant / Legg Yeung**: Saturday at 1:30 - 2:30pm Pacific.
 * **James Kunz**: Tuesday immediately after his live session (8pm Pacific).
+* **Joachim Rahmfeld**: Thursday immediately after his live session (5:30pm Pacific).
+* **Sid J Reddy**: Friday at 3pm Pacific.
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -81,7 +84,7 @@ We don't anticipate granting extensions beyond these policies.  Plan your time a
 
 ### More serious issues
 
-If you run into a more serious issue that will affect your ability to complete the course, please contact the instructors and MIDS student services.  A word of warning though: in previous sections, we have had students ask for INC grades because their lives were otherwise busy.  Mostly we have declined, opting instead for the student to complete the course to the best of their ability and have a grade assigned based on that work.  (MIDS prefers to avoid giving INCs, as they have been abused in the past.)
+If you run into a more serious issue that will affect your ability to complete the course, please email the instructors mailing list and cc MIDS student services.  A word of warning though: in previous sections, we have had students ask for INC grades because their lives were otherwise busy.  Mostly we have declined, opting instead for the student to complete the course to the best of their ability and have a grade assigned based on that work.  (MIDS prefers to avoid giving INCs, as they have been abused in the past.)  The sooner you start this process, the more options we (and the department) have to help.  Don't wait until you're suffering from the consequences to tell us what's going on!
 
 
 ## Final Project

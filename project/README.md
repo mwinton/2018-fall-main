@@ -15,8 +15,7 @@ The project is expected to be significantly more work than each of the assignmen
 We’ll set several milestones to check in along the way:
 - [5%] **Project proposal**
 - [0%] **Milestone (optional)**
-- [5%] **Final presentations**
-- [90%] **Project writeup**
+- [95%] **Final presentations and writeup**
 
 ### Our expectations of you
 As a student in a gradulate level course, you are responsible for seeking out help when your project is stuck.  There is significant support available if you seek it out.  Do not wait for us to provide feedback on deliverables to take action.  If you're looking for a formal way to seek this help, skip down to the Milestone section.
@@ -31,7 +30,7 @@ Overall themes (10%):
 - Who else has worked on this problem?  What did they do?  What are you doing differently?
 - Is it clear you read and understood the papers you cited?  Are they the right ones?
 
-Crisp objective (30%):
+Crisp objective (20%):
 - "How will I know when my project is successful?", usually in the form of an evaluation metric.
 - Tied back to overall problem statement - why is this the right objective?
 - Statement of a clear baseline (e.g. for classification, predict most common class for everything).
@@ -43,10 +42,13 @@ Methodology and analysis (50%):
 - What weird patterns in the data have you found?  What about how the model interacts with your data?  (Did you find any interesting loss patterns?)
 - Do the patterns you observe align well with patterns other researchers have found in the papers you read?  What did they do about them?
 
-Technical communication (10%):
-- Did you run spell check before submitting?
-- Are your thoughts well organized?
-- Did you proof read it?
+Technical communication (20%):
+- Primarily:
+  - Succinct, interesting presentation explaining the above.
+  - Is your paper well organized?
+- Table stakes:
+  - Did you run spell check before submitting?
+  - Did you proof read it?
 
 Volume of work (built into the other components):
 - Is this someone else's code (downloaded from github) simply run on already cleaned up data (downloaded from Kaggle)?
