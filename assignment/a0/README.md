@@ -20,7 +20,7 @@ If you prefer to work on your own laptop/desktop/server (including AWS), we stro
 `git clone https://github.com/datasci-w266/2018-fall-main.git ~/w266`  
 You may also want to do this on your laptop to have a local copy.  
 
-3. **Answer the questions in the `answers`** file in the `assignment/a0`.  (If you wish, you can run the presubmit script, answers\_test.py, yourself.  The submit script below will also run these before it pushes.  Unlike in future assignments, these presubmits check your answers for you.)
+3. **Answer the questions in the `answers`** file in the `assignment/a0`directory.  (If you wish, you can run the presubmit script, answers\_test.py, yourself.  The submit script below will also run these before it pushes.  Unlike in future assignments, these presubmits check your answers for you.)
 Commit the change with `git commit`.
 
 4. **Open and run `a0.ipynb`**. This notebook will check that your Python packages are up-to-date, test TensorFlow, and give a taste of some of the NLP datasets we'll be working with. You don't need to write any code here - just run the cells, save, and commit the updated notebook to git.  `git commit` the resulting populated notebook so that we know you ran it.
