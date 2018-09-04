@@ -154,5 +154,5 @@ This will be a final report in the style of a research paper. Aim for 4-6 pages 
 
 Again, please send your write-up PDF by email to mids-nlp-instructors@googlegroups.com and include a link to all the code you wrote.
 
-We will be providing feedback to teams based on the rubric above.  This will take us some time and likely term grades will be released ahead of that feedback.
+We will be providing feedback to teams based on the rubric above.  This will take us some time (potentially up to a month after the deadline) and likely term grades will be released ahead of that feedback.
 

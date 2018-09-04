@@ -6,15 +6,12 @@
 [Course Resources](#course-resources)  
 [Schedule and Readings](#schedule-and-readings)  
 
-## Warning
-This syllabus is not updated for the fall semester yet.  Read with a grain of salt.
-
 ## Course Overview
 Understanding language is fundamental to human interaction. Our brains have evolved language-specific circuitry that helps us learn it very quickly; however, this also means that we have great difficulty explaining how exactly meaning arises from sounds and symbols. This course is a broad introduction to linguistic phenomena and our attempts to analyze them with machine learning. We will cover a wide range of concepts with a focus on practical applications such as information extraction, machine translation, sentiment analysis, and summarization.
 
 **Prerequisites:**
 * Language: All assignments will be in Python using Jupyter notebooks, NumPy, and TensorFlow.
-* Time:  There are 5-6 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you take both this and any of 210 (Capstone), 261, or 271 :)
+* Time:  There are 5-6 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you have other significant commitments at work or home, or take both this and any of 210 (Capstone), 261, or 271 :)
 * [MIDS 207 (Machine Learning)](https://www.ischool.berkeley.edu/courses/datasci/207): We assume you know what gradient descent is.  We'll review simple linear classifiers and softmax at a high level, but make sure you've at least heard of these! You should also be comfortable with linear algebra, which we'll use for vector representations and when we discuss deep learning.
 
 **Contacts and resources:**
@@ -28,7 +25,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * Wednesday 6:30 - 8p Pacific (Blake Lemoine)
 * Thursday 4 - 5:30p Paciifc (Joachim Rahmfeld)
 * Thursday 6:30 - 8p Pacific (Mark Butler)
-* Friday 4 - 5:30p Paciifc (Sid J Reddy)
+* Friday 4 - 5:30p Pacific (Sid J Reddy)
 
 **Teaching Staff Office Hours:**
 
@@ -36,6 +33,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Drew Plant / Legg Yeung**: Saturday at 1:30 - 2:30pm Pacific.
 * **James Kunz**: Tuesday immediately after his live session (8pm Pacific).
 * **Joachim Rahmfeld**: Thursday immediately after his live session (5:30pm Pacific).
+* **Mark Butler**: Thursday immediately after his live session (8pm Pacific).
 * **Sid J Reddy**: Friday at 3pm Pacific.
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
@@ -53,14 +51,14 @@ Office hours are for the whole class; students from any section are welcome to a
 Your grade report can be found at [https://w266grades.appspot.com](https://w266grades.appspot.com).
 
 Your grade will be determined as follows:
-* **Participation**: 10%
-* **Assignments**: 50%
-* **Final Project**: 40%
+* **Assignments**: 40%
+* **Final Project**: 60%
+* **Participation**: Up to 10% bonus
 
 There will be a number of smaller [assignments](../assignment/) throughout the term for you to
 exercise what you learned in async and live sessions. Some assignments may be more difficult than others, and may be weighted accordingly.
 
-Participation will be graded holistically, based on live session attendance and participation as well as participation on Piazza. (Do not stress about this part.)
+Participation will be graded holistically, based on live session participation as well as participation on Piazza (or other activities that improve the course this semester or into the future). Do not stress about this part.
 
 
 ### Letter Grades
