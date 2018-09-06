@@ -36,7 +36,7 @@ Start the Compute Engine instance
     * Name: w266
     * Zone: (pick one close to you)
     * Machine Type: 1 vCPUs, 3.75 GB
-    * Boot Disk: Ubuntu 16.04 LTS (modify boot disk size to **100 GB**)
+    * Boot Disk: Ubuntu 18.04 LTS (modify boot disk size to **100 GB**)
     * (Optionally) allow HTTP(s) traffic
 
 ![Create instance](screenshots/6-createinstance.png "Create instance")
