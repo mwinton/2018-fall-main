@@ -1,0 +1,120 @@
+## Write your short answer questions in this file.
+## Simply replace the placeholders with your answers.
+
+## Your code will go elsewhere (either in a ipynb or py file).
+#  Where there are "YOUR CODE HERE" blocks, there exists a solution
+#  by only editing those lines.  No need to edit anything else.
+
+## Information Theory
+
+# Part A
+
+info_a1: 0.0
+
+info_a2: 0.0
+info_a2_speculation: Because!
+
+# Part B
+
+info_b1: 0.0
+
+info_b2:
+- First sentence
+- Second sentence
+# (keep the correct answer)
+
+info_b3:
+- N(0, 1)
+- N(7, 0.5)
+# (keep the correct answer)
+
+info_c1: 0.0
+info_c2: 0.0
+info_c3: Probably not, or we wouldn't ask the question.  (Replace with your description.)
+info_c4: 0.0
+info_c5: 0.0
+info_c6: 0.0
+
+## Dynamic Programming
+
+# Part A
+dp_a1: 0.0
+dp_a2: Your reason goes here.
+dp_a3: limit (not graded)
+
+# Part B
+dp_b1_A: 0.0
+dp_b1_B: 0.0
+dp_b1_C: 0.0
+
+# Part C
+dp_c1: Your reason goes here.
+dp_c2: Your reason goes here.
+dp_c3:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+# (keep the correct answers)
+
+# Part D
+# For the next answers, write down the segmentation your best cuts with trace made.
+# For example, if 'helloworldhowareyou' segmented into the words you'd expect, your
+# answer would be as follows:
+#
+# dp_d_helloworldhowareyou:
+# - hello
+# - world
+# - how
+# - are
+# - you
+
+dp_d_helloworldhowareyou:
+- (see above)
+
+dp_d_downbythebay:
+- (see above)
+
+dp_d_wikipediaisareallystrongresourceontheinternet:
+- (see above)
+
+# Part E
+# (This section is optional, but if you want us to check your answers...)
+
+dp_e1: 0
+dp_e2: O(0)
+dp_e3: 0
+dp_e4: line goes here
+
+
+## TensorFlow
+
+# Part B
+
+tf_b_W_shape: 0x0
+tf_b_b_shape: 0x0
+
+# Part C
+
+tf_c_W_shape: 0x0
+tf_c_b_shape: 0x0
+tf_c_x_shape: 0x0
+tf_c_z_shape: 0x0
+
+# Part D
+
+tf_d_y_hat_shape: 0x0
+tf_d_y_hat_value: [0, 0, 0]
+tf_d_elementwise_description: Your explanation.
+
+# Part E
+tf_e_W_shape: 0x0
+tf_e_b_shape: 0x0
+tf_e_x_shape: 0x0
+tf_e_z_shape: 0x0
