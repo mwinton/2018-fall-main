@@ -198,7 +198,7 @@ We'll update the table below with assignments as they become available, as well 
   <td><a href="../assignment/a1" target="_blank">Assignment 1</a></td>
 </tr>
 <tr><!--- Sentiment/Classification -->
-  <td><strong>Week&nbsp;3</strong><br>(September&nbsp;10&nbsp;-&nbsp;16)</td>
+  <td><strong>Week&nbsp;3</strong><br>(September&nbsp;17&nbsp;-&nbsp;23)</td>
   <td>Classification and Sentiment (2.7 onwards)
   <p><p>
   <em>Note: you may want to review Async 5.3, 5.4, and 5.5.</em>
@@ -209,7 +209,7 @@ We'll update the table below with assignments as they become available, as well 
   <td></td>
 </tr>
 <tr><!--- n-grams -->
-  <td><strong>Week&nbsp;4</strong><br>(September&nbsp;17&nbsp;-&nbsp;23)</td>
+  <td><strong>Week&nbsp;4</strong><br>(September&nbsp;24&nbsp;-&nbsp;30)</td>
   <td>Language Modeling I,
   <br>4.1-4.4, 4.8 - 4.11</td>
   <td><ul>
@@ -240,8 +240,8 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Classification assignment -->
   <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <br>released&nbsp;September&nbsp;14
-  <br>due&nbsp;September&nbsp;23</td>
+  <br>released&nbsp;September&nbsp;21
+  <br>due&nbsp;September&nbsp;30</td>
   <td><strong>Text Classification</strong></td>
   <td><ul>
     <li>Exploration & Naive Bayes
@@ -251,7 +251,7 @@ We'll update the table below with assignments as they become available, as well 
   <td><a href="../assignment/a2" target="_blank">Assignment 2</a></td>
 </tr>
 <tr><!--- Neural language models -->
-  <td><strong>Week&nbsp;5</strong><br>(September&nbsp;24&nbsp;-&nbsp;30)</td>
+  <td><strong>Week&nbsp;5</strong><br>(October&nbsp;1&nbsp;-&nbsp;7)</td>
   <td>Language Modeling II</td>
   <td><ul>
   <li>Neural Net LMs
@@ -273,7 +273,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Project Proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
-  <br>due&nbsp;September&nbsp;30</td>
+  <br>due&nbsp;October&nbsp;7</td>
   <td></td>
   <td></td>
   <td>
@@ -296,7 +296,7 @@ We'll update the table below with assignments as they become available, as well 
   </ul></td>
 </tr>
 <tr><!--- Week 6 -->
-  <td><strong>Week&nbsp;6&nbsp;-&nbsp;7</strong><br>(October&nbsp;1&nbsp;-&nbsp;14)</td>
+  <td><strong>Week&nbsp;6&nbsp;-&nbsp;7</strong><br>(October&nbsp;8&nbsp;-&nbsp;21)</td>
   <td>Machine Translation I
   <br>Machine Translation II</td>
   <td><ul>
@@ -314,8 +314,8 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- LM & embeddings assignment -->
   <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <br>released&nbsp;September&nbsp;28
-  <br>due&nbsp;October&nbsp;14</td>
+  <br>released&nbsp;October&nbsp;5
+  <br>due&nbsp;October&nbsp;21</td>
   <td><strong>Language Models and Word Embeddings</strong></td>
   <td><ul>
     <li>Smoothed n-grams
@@ -325,7 +325,7 @@ We'll update the table below with assignments as they become available, as well 
   <td><a href="../assignment/a3" target="_blank">Assignment 3</a></td>
 </tr>
 <tr>
-  <td><strong>Week&nbsp;8</strong><br>(October&nbsp;15&nbsp;-&nbsp;28)</td>
+  <td><strong>Week&nbsp;8</strong><br>(October&nbsp;22&nbsp;-&nbsp;28)</td>
   <td>Summarization</td>
   <td><ul>
   <li>Single- vs. multi-document summarization
