@@ -16,10 +16,9 @@ info_a2_speculation: Because!
 
 # Part B
 
-info_b1_1: 0.0
-info_b1_2: 0.0
-info_b1_3: 0.0
-info_b1_4: 0.0
+info_b1_1_128msg_num_bits: 0.0
+info_b1_2_128msg_entropy: 0.0
+info_b1_3_1024msg_num_bits: 0.0
 
 info_b2:
 - First sentence
