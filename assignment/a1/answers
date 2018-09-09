@@ -16,7 +16,10 @@ info_a2_speculation: Because!
 
 # Part B
 
-info_b1: 0.0
+info_b1_1: 0.0
+info_b1_2: 0.0
+info_b1_3: 0.0
+info_b1_4: 0.0
 
 info_b2:
 - First sentence
@@ -29,7 +32,8 @@ info_b3:
 # (keep the correct answer)
 
 info_c1: 0.0
-info_c2: 0.0
+info_c2_1: 0.0
+info_c2_2: Your comparison goes here
 info_c3: Probably not, or we wouldn't ask the question.  (Replace with your description.)
 info_c4: 0.0
 info_c5: 0.0
