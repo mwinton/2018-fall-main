@@ -49,6 +49,8 @@ dp_a3: limit (not graded)
 dp_b1_A: 0.0
 dp_b1_B: 0.0
 dp_b1_C: 0.0
+dp_b2: yes or no
+dp_b3: 0.0
 
 # Part C
 dp_c1: Your reason goes here.
