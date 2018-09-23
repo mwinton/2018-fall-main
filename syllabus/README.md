@@ -238,18 +238,6 @@ We'll update the table below with assignments as they become available, as well 
   <a href="http://projector.tensorflow.org/" target="_blank">[TensorFlow&nbsp;Embedding&nbsp;Projector]</a>
   </td>
 </tr>
-<tr><!--- Classification assignment -->
-  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <br>released&nbsp;September&nbsp;21
-  <br>due&nbsp;September&nbsp;30</td>
-  <td><strong>Text Classification</strong></td>
-  <td><ul>
-    <li>Exploration & Naive Bayes
-    <li>Neural Bag-of-Words
-    <li>Convolutional neural networks
-  </ul></td>
-  <td><a href="../assignment/a2" target="_blank">Assignment 2</a></td>
-</tr>
 <tr><!--- Neural language models -->
   <td><strong>Week&nbsp;5</strong><br>(October&nbsp;1&nbsp;-&nbsp;7)</td>
   <td>Language Modeling II</td>
@@ -271,14 +259,17 @@ We'll update the table below with assignments as they become available, as well 
   <a href="../materials/nplm/nplm.ipynb" target="_blank">[NPLM Notebook]</a>
   </td>
 </tr>
-<tr><!--- Project Proposal -->
-  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
+<tr><!--- Classification assignment -->
+  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
+  <br>released&nbsp;September&nbsp;28
   <br>due&nbsp;October&nbsp;7</td>
-  <td></td>
-  <td></td>
-  <td>
-  <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
-  </td>
+  <td><strong>Text Classification</strong></td>
+  <td><ul>
+    <li>Exploration & Naive Bayes
+    <li>Neural Bag-of-Words
+    <li>Convolutional neural networks
+  </ul></td>
+  <td><a href="../assignment/a2" target="_blank">Assignment 2</a></td>
 </tr>
 <tr><!--- Extra Material -->
   <td><strong>Interlude (Extra Material)</strong></td>
@@ -311,11 +302,21 @@ We'll update the table below with assignments as they become available, as well 
   <li><em>Optional:</em> <a href="https://arxiv.org/abs/1609.08144" target="_blank">Google’s Neural Machine Translation System</a>
   <li><em>Optional:</em> <a href="http://distill.pub/2016/augmented-rnns/#attentional-interfaces" target="_blank">Attention and Augmented Recurrent Neural Networks</a> (section on “Attentional Interfaces” has an awesome visualization of an MT example, showing alignments)
   </ul></td>
+<<tr>
+<!--- Project Proposal -->
+  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
+  <br>due&nbsp;October&nbsp;14</td>
+  <td></td>
+  <td></td>
+  <td>
+  <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
+  </td>
 </tr>
+/tr>
 <tr><!--- LM & embeddings assignment -->
   <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <br>released&nbsp;October&nbsp;5
-  <br>due&nbsp;October&nbsp;21</td>
+  <br>released&nbsp;October&nbsp;12
+  <br>due&nbsp;October&nbsp;28</td>
   <td><strong>Language Models and Word Embeddings</strong></td>
   <td><ul>
     <li>Smoothed n-grams
@@ -343,8 +344,8 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr>
   <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
-  <br>released&nbsp;October&nbsp;TBD
-  <br>due&nbsp;October&nbsp;TBD</td>
+  <br>released&nbsp;TBD
+  <br>due&nbsp;TBD</td>
   <td><strong>Assignment 4</strong></td>
   <td><ul>
   <li>TBD
