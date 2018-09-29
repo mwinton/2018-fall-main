@@ -357,7 +357,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- POS Tagging -->
   <td><strong>Week&nbsp;9</strong><br>(October&nbsp;29&nbsp;-&nbsp;November&nbsp;4)</td>
-  <td>Part-of-Speech Tagging I</td>
+  <td><a href="https://www.youtube.com/playlist?list=PLh1VT8Lm3apRPGB1uKZsMyMt1DmUf_ItE">Part of Speech Supplementary Videos</a></td>
   <td><ul>
   <li>Tag sets
   <li>Most frequent tag baseline

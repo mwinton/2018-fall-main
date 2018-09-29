@@ -1,0 +1,104 @@
+## Write your short answers in this file, replacing the placeholders as appropriate.
+
+## Exploration ##
+#
+
+exploration_a_1_1_positive_fraction: 0.0
+exploration_a_1_2_balanced: False
+exploration_a_1_3_common_class_accuracy: 0.0
+
+exploration_a_2_common_tokens:
+- word1
+- word2
+- word3
+- word4
+- word5
+
+exploration_a_3_percentile_length: 0
+exploration_a_4_problematic: Your answer and why.
+
+exploration_b_2_most_negative: word
+exploration_b_2_most_negative_score: -0.0
+exploration_b_2_most_positive: word
+exploration_b_2_most_positive_score: 0.0
+exploration_b_2_make_sense: Your answer and why.
+
+exploration_c_1_why_first_wrong: Your answer
+exploration_c_1_why_second_right: Your answer
+
+exploration_c_2_pattern: Your answer
+exploration_c_2_subphrase_to_whole:
+# Keep most common case
+- Whole is positive, Subphrase is positive
+- Whole is negative, Subphrase is negative
+- Whole is one polarity, Subphrase is opposite
+
+exploration_c_3_error_overall: 0.0
+exploration_c_3_error_interesting: 0.0
+exploration_c_3_error_increase: 0.0
+
+## Neural Bag of Words ##
+#
+
+bow_d_1_w_embed: [0x0]
+bow_d_1_w_0: [0x0]
+bow_d_1_b_0: [0x0]
+bow_d_1_w_1: [0x0]
+bow_d_1_b_1: [0x0]
+bow_d_1_w_out: [0x0]
+bow_d_1_b_out: [0x0]
+
+bow_d_2_parameters_embedding: 0
+bow_d_2_parameters_hidden: 0
+bow_d_2_parameters_output: 0
+
+bow_d_3_embed_dim: 0
+bow_d_3_hidden_dims: [0, 0, 0, 0]
+
+bow_d_4_same_predict: False
+bow_d_4_same_predict_why: Your answer
+
+bow_f_2_interesting_accuracy: 0.0
+bow_f_2_whole_test_accuracy: 0.0
+bow_f_2_better_than_bayes: False
+bow_f_2_why: Your answer
+
+bow_f_3_more_training: False
+bow_f_4_overfitting: False
+
+## Convolutional Neural Networks ##
+#
+
+# (Do not modify this section for now.)
+
+
+## ML Fairness ##
+#
+
+ml_racist_1_sentiment:  0.0
+
+ml_racist_2_bias_rank:
+# Most
+- Concept
+- GloVe
+- Word2Vec
+# Least
+
+ml_racist_3_technique:
+# Keep 
+- Adversarial training
+- Bias Risk Reduction
+- Debiasing Word Embeddings
+
+ml_debias_1_evidence: Your answer
+ml_debias_2_table_1: Your answer
+ml_debias_3_stages: 
+- Your answer (stage 1)
+- Your answer (stage 2)
+
+ml_debias_4: Option
+
+ml_adversarial_1_parity: Your answer
+ml_adversarial_2_equality: Your answer
+ml_adversarial_3_j_lambda: Your answer
+
