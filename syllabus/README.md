@@ -31,6 +31,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 
 * **Daniel Cer**: Wednesday at noon Pacific.
 * **Drew Plant / Legg Yeung**: Saturday at 1:30 - 2:30pm Pacific.
+* **Blake Lemoine**: Wednesday immediately after his live session (8pm Pacific).
 * **James Kunz**: Tuesday immediately after his live session (8pm Pacific).
 * **Joachim Rahmfeld**: Thursday immediately after his live session (5:30pm Pacific).
 * **Mark Butler**: Thursday immediately after his live session (8pm Pacific).
