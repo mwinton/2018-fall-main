@@ -109,7 +109,7 @@ This year’s NLP conferences might be good for inspiration as well, or if you j
 
 Between Week 2 and Week 4, the instructors will be holding special discussion sections (during OH) to talk about how to search the literature and read NLP papers. Each session will also include a guided discussion of a specific paper. We'll release a schedule and a list of papers early in the semester.
 
-Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and send the link to mids-nlp-instructors@googlegroups.com. We'll provide feedback as in-line comments, which can be more convenient than an email thread.  
+Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and send the link to mids-nlp-instructors@googlegroups.com with **a subject of <your live session instructor(s)> - Project Proposal**.  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
 _Please no Microsoft Word documents!_
 
 ## Milestone (optional)
