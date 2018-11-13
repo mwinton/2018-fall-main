@@ -6,6 +6,10 @@
 [Course Resources](#course-resources)  
 [Schedule and Readings](#schedule-and-readings)  
 
+## Thanksgiving update
+
+See [Piazza](https://piazza.com/class/jknbtsr3vfw2uy?cid=417).
+
 ## Course Overview
 Understanding language is fundamental to human interaction. Our brains have evolved language-specific circuitry that helps us learn it very quickly; however, this also means that we have great difficulty explaining how exactly meaning arises from sounds and symbols. This course is a broad introduction to linguistic phenomena and our attempts to analyze them with machine learning. We will cover a wide range of concepts with a focus on practical applications such as information extraction, machine translation, sentiment analysis, and summarization.
 
@@ -23,7 +27,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * Tuesday 4 - 5:30p Pacific (Daniel Cer)
 * Tuesday 6:30 - 8p Pacific (James Kunz)
 * Wednesday 6:30 - 8p Pacific (Blake Lemoine)
-* Thursday 4 - 5:30p Paciifc (Joachim Rahmfeld)
+* Thursday 4 - 5:30p Pacific (Joachim Rahmfeld)
 * Thursday 6:30 - 8p Pacific (Mark Butler)
 * Friday 4 - 5:30p Pacific (Sid J Reddy)
 
@@ -343,19 +347,6 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </td>
 </tr>
-<tr>
-  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
-  <br>released&nbsp;TBD
-  <br>due&nbsp;TBD</td>
-  <td><strong>Assignment 4</strong></td>
-  <td><ul>
-  <li>TBD
-  </ul></td>
-  <td>
-  <a href="../assignment/a5" target="_blank">Assignment 5</a>
-  <p><p>
-  </td>
-</tr>
 <tr><!--- POS Tagging -->
   <td><strong>Week&nbsp;9</strong><br>(October&nbsp;29&nbsp;-&nbsp;November&nbsp;4)</td>
   <td><a href="https://www.youtube.com/playlist?list=PLh1VT8Lm3apRPGB1uKZsMyMt1DmUf_ItE">Part of Speech Supplementary Videos</a></td>
@@ -392,6 +383,19 @@ We'll update the table below with assignments as they become available, as well 
   <p>
   </td>
 </tr>
+<tr>
+  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
+  <br>released&nbsp;November 15
+  <br>due&nbsp;December 2</td>
+  <td><strong>Assignment 4</strong></td>
+  <td><ul>
+  <li>Part of Speech Tagging
+  </ul></td>
+  <td>
+  <a href="../assignment/a4" target="_blank">Assignment 4</a>
+  <p><p>
+  </td>
+</tr>
 <tr><!--- Constituency Parsing -->
   <td><strong>Week&nbsp;11</strong><br>(November&nbsp;19&nbsp;-&nbsp;25)</td>
   <td>Constituency Parsing</td>
@@ -409,6 +413,19 @@ We'll update the table below with assignments as they become available, as well 
   </ul>
   <p>
   <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[Interactive CKY Demo]</a>
+  </td>
+</tr>
+<tr>
+  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
+  <br>released&nbsp;November 25
+  <br>Optional</td>
+  <td><strong>Assignment 5</strong></td>
+  <td><ul>
+  <li>Parsing
+  </ul></td>
+  <td>
+  <a href="../assignment/a5" target="_blank">Assignment 5</a>
+  <p><p>
   </td>
 </tr>
 <tr><!--- Information Retrieval -->
