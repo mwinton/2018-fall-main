@@ -1,0 +1,14 @@
+# Instructions:
+#
+# label: {answer1|answer2}
+#
+# should be edited to read
+#
+# label: answer1
+# OR
+# label: answer2
+
+fb_viterbi_differ: How do they differ?
+can_be_zero: {Yes|No}
+can_be_zero_reason: Why do you think so?
+
