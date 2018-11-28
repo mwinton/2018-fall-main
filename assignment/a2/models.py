@@ -170,6 +170,72 @@ def BOW_encoder(ids_, ns_, V, embed_dim, hidden_dims, dropout_rate=0,
     #### END(YOUR CODE) ####
     return h_, xs_
 
+def CNN_encoder(ids_, ns_, V, embed_dim, filters, kernel_sizes, hidden_dims,
+                activation=tf.nn.relu, dropout_rate=0, is_training=None, **unused_kw):
+    """Construct a CNN encoder.
+    You don't need to define any variables directly in this function, but you
+    should:
+        - Build the embeddings (using embedding_layer(...))
+        - Apply the mask to zero-out padding indices
+        - Apply a convoluational layer
+        - Apply a max pooling layer
+    Note that this function returns the final encoding C_ as well as the masked
+    embeddings xs_. The latter is used for L2 regularization, so that we can
+    penalize the norm of only those vectors that were actually used for each
+    example.
+    Args:
+        ids_: [batch_size, max_len] Tensor of int32, integer ids
+        ns_:  [batch_size] Tensor of int32, (clipped) length of each sequence
+        V: (int) vocabulary size
+        embed_dim: (int) embedding dimension
+        filters: (int) number filters per filter length
+        kernel_sizes: list(int) a list of filter lengths 
+        hidden_dims: list(int) dimensions of the output of each layer
+        activation: activation funtion 
+        dropout_rate: (float) rate to use for dropout
+        is_training: (bool) if true, is in training mode
+    Returns: (h_, xs_)
+        Chat_: [batch_size, filters*kernal_size] Tensor of float32, the activations of
+                the last layer constructed by this function.
+        xs_: [batch_size, max_len, embed_dim] Tensor of float32, the per-word
+            embeddings as returned by embedding_layer and with the mask applied
+            to zero-out the pad indices.
+    """
+    assert is_training is not None, "is_training must be explicitly set to True or False"
+    # Embedding layer should produce:
+    #   xs_: [batch_size, max_len, embed_dim]
+    with tf.variable_scope("CNN_Embedding_Layer", reuse=tf.AUTO_REUSE):
+        #### YOUR CODE HERE ####
+        xs_ = None  # replace with a call to embedding_layer
+        #### END(YOUR CODE) ####
+    #### YOUR CODE HERE ####
+    # Mask off the padding indices with zeros
+    #   mask_: [batch_size, max_len, 1] with values of 0.0 or 1.0
+    mask_ = tf.expand_dims(tf.sequence_mask(ns_, xs_.shape[1],
+                                            dtype=tf.float32), -1)
+    # Multiply xs_ by the mask to zero-out pad indices.
+
+    # Apply convolutional layers for each kernel size
+    z_list = []
+    for kernel_size in kernel_sizes:
+        # Apply convolutional filters for the current kernel_size 
+
+        # Max pooling of feature maps
+
+        # Apply dropout
+         
+        z_list.append(c_hat_k_) 
+
+    # Concatenate representations for different kernel sizes
+
+    # Build a stack of fully-connected layers
+    if hidden_dims:
+    else:
+      h_ = z_
+
+    #### END(YOUR CODE) ####
+    return h_, xs_
+
 def classifier_model_fn(features, labels, mode, params):
     # Seed the RNG for repeatability
     tf.set_random_seed(params.get('rseed', 10))
@@ -180,6 +246,11 @@ def classifier_model_fn(features, labels, mode, params):
     if params['encoder_type'] == 'bow':
         with tf.variable_scope("Encoder"):
             h_, xs_ = BOW_encoder(features['ids'], features['ns'],
+                                  is_training=is_training,
+                                  **params)
+    elif params['encoder_type'] == 'cnn':
+        with tf.variable_scope("Encoder"):
+            h_, xs_ = CNN_encoder(features['ids'], features['ns'],
                                   is_training=is_training,
                                   **params)
     else:

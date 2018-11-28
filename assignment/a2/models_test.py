@@ -101,3 +101,42 @@ class TestNeuralBOW(unittest.TestCase):
                 # Check that all expected vars were covered.
                 self.assertIn(name, names_found)
 
+
+class TestCNN(unittest.TestCase):
+    def setUp(self):
+        self.params = dict(V=512, embed_dim=24, filters=128, kernel_sizes=[3, 4, 5],
+                           hidden_dims=[128], num_classes=5, encoder_type='cnn',
+                           lr=0.1, optimizer='adagrad', beta=0.01)
+        self._graph = tf.Graph()
+        self._session = tf.Session(graph=self._graph)
+
+    def test_CNN_Encoder(self):
+        with self._graph.as_default():
+            ids_ = tf.constant([[0, 127, 512, 12, 11],
+                                [63, 191,  0, 0, 0]], dtype=tf.int32)
+            ns_ = tf.constant([5, 2], dtype=tf.int32)
+            h_, xs_ = models.CNN_encoder(ids_, ns_, is_training=False, **self.params)
+            self.assertEqual(h_.get_shape().as_list(), [2, 128])
+            self.assertEqual(xs_.get_shape().as_list(), [2, 5, 24])
+            name_to_shape = {
+                    "CNN_Embedding_Layer/W_embed:0": [512, 24],
+                    "conv1d/kernel:0": [3, 24, 128],
+                    "conv1d/bias:0": [128],
+                    "conv1d_1/kernel:0": [4, 24, 128],
+                    "conv1d_1/bias:0": [128],
+                    "conv1d_2/kernel:0": [5, 24, 128],
+                    "conv1d_2/bias:0": [128],
+                    "Hidden_0/kernel:0": [384, 128],
+                    "Hidden_0/bias:0": [128]}
+
+            names_found = set()
+            for var_ in tf.trainable_variables():
+                self.assertIn(var_.name, name_to_shape)
+                self.assertEqual(var_.get_shape().as_list(),
+                                 name_to_shape[var_.name])
+                names_found.add(var_.name)
+            for name in name_to_shape:
+                # Check that all expected vars were covered.
+                self.assertIn(name, names_found)
+
+
