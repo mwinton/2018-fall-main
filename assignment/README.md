@@ -1,12 +1,19 @@
 ### Assignments
 
 You should begin working on assignments as soon as they are released.
-While we've split assignments into more bite sized pieces compared to last semester, most are still quite a bit of work.
-In particular, do not wait until week 2 to start assignments 0 or 1!
-
-TL;DR: Start early!
 
 Each assignment is due at 11:59pm Pacific on Sundays, unless otherwise stated.
+
+### Weighting
+
+Weighting of assignments:
+
+* A0: 0%
+* A1 (TensorFlow): 25%
+* A2 (Classification): 25%
+* A3 (Language Modeling): 35%
+* A4 (Part of Speech Tagging): 15%
+* A5 (Parsing): Optional
 
 ### Collaboration policy
 
